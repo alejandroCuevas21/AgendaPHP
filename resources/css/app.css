@@ -1,0 +1,74 @@
+
+.cardPrimaria {
+    border-color:#0767A9;
+}
+
+.cardEncabezado {
+    background-color: #0767A9;
+    color:white;
+}
+
+.FooterPrimarioCard {
+    background-color: #DAEEFB;
+}
+
+.dataTables_wrapper .dataTables_filter {
+    float: left;
+    margin-right: 10px; /* Puedes ajustar el valor según tu preferencia */
+}
+
+.dataTables_wrapper .dataTables_length {
+    float: right;
+    margin-left: 10px; /* Puedes ajustar el valor según tu preferencia */
+}
+
+.EncabezadoTabla thead {
+    background-color: #E5F1F9;
+    
+}
+
+.Desabilitar {
+    background-color: lightgrey;
+}
+
+
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+#multi_option {
+    max-width: 100%;
+    width: 350px;
+}
+
+
+.vscomp-toggle-button {
+    padding: 10px 30px 10px 10px;
+    border-radius: 5px;
+}
+
+.disabled {
+    color: #999999; 
+    cursor: not-allowed; 
+    text-decoration: none;  
+    pointer-events: none;
+    color: grey;
+}
+
+
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo oscuro con opacidad del 50% */
+    z-index: 1000; /* Asegúrate de que el overlay esté por encima de todo */
+}
