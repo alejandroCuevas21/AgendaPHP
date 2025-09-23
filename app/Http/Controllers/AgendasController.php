@@ -6,6 +6,7 @@ use App\Models\Agenda;
 use Illuminate\Http\Request;
 use View;
 
+
 class AgendasController extends Controller
 {
  
