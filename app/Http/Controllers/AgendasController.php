@@ -6,6 +6,7 @@ use App\Models\Agenda;
 use Illuminate\Http\Request;
 use View;
 
+
 class AgendasController extends Controller
 {
  
@@ -16,7 +17,8 @@ class AgendasController extends Controller
             
     }
 
-  
+ 
+    
     public function VisualizarInsertarContacto($id = null) {
         $contacto = null;
         $Accion = 'Alta'; 
