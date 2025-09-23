@@ -17,7 +17,8 @@ class AgendasController extends Controller
             
     }
 
-  
+ 
+    
     public function VisualizarInsertarContacto($id = null) {
         $contacto = null;
         $Accion = 'Alta'; 
